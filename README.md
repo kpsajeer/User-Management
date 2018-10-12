@@ -4,13 +4,17 @@ User Management in Laravel
 
 1. Clone the App
 
-2. Create a database
+2. Copy .env.example to .env
 
-3. Update .env File with APP_URL and DB configuration
+3. Generate App Key using php artisan key:generate
 
-4. php artisan migrate
+3. Create a database
 
-5. php artisan db:seed --class=UsersTableSeeder
+4. Update .env File with APP_URL and DB configuration
+
+5. php artisan migrate
+
+6. php artisan db:seed --class=UsersTableSeeder
 
 
 
